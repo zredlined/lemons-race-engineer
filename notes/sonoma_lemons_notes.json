@@ -23,59 +23,46 @@
   "turns": {
     "T12": [
       {"type": "apex", "text": "Apex tight to inside wall"},
-      {"type": "line", "text": "Track out to right wall"},
       {"type": "throttle", "text": "Full throttle onto straight", "announce_m_before": 10}
     ],
     "T1": [
-      {"type": "line", "text": "Apex on inside wall"},
       {"type": "landmark", "text": "Turn-in near end of black sign on right"},
-      {"type": "setup", "text": "Exit midtrack, eyes to worn white line for T2"}
+      {"type": "apex", "text": "Apex on inside wall"}
     ],
     "T2": [
-      {"type": "landmark", "text": "Worn white line left, not the pit blend line"},
-      {"type": "setup", "text": "Straight uphill, left tires near worn white line"},
-      {"type": "apex", "text": "Early apex, ride right curb, full trackout"},
-      {"type": "throttle", "text": "Full throttle on exit", "announce_m_before": 10}
+      {"type": "setup", "text": "Left tires near worn white line"},
+      {"type": "apex", "text": "Early apex, ride right curb"}
     ],
     "T3": [
-      {"type": "landmark", "text": "Stay right until tire rubber on right curb"},
-      {"type": "setup", "text": "Stay right deep, late turn-in"},
-      {"type": "caution", "text": "Early turn-in ruins 3A"}
+      {"type": "setup", "text": "Stay right deep, late turn-in to set up 3A"}
     ],
     "T3A": [
-      {"type": "apex", "text": "Late apex, use flat part of 2-step curb"},
-      {"type": "line", "text": "Crest pointed toward midtrack"}
+      {"type": "apex", "text": "Late apex, use flat part of 2-step curb"}
     ],
     "T4": [
-      {"type": "brake", "text": "Downhill braking, earlier than feels right"},
-      {"type": "landmark", "text": "Flagger on right; turn-in just past asphalt patch"},
-      {"type": "apex", "text": "Late turn-in, avoid harsh curb, track out full"}
+      {"type": "brake", "text": "Brake early downhill"},
+      {"type": "apex", "text": "Late turn-in, avoid harsh curb"}
     ],
     "T5": [
       {"type": "setup", "text": "Turn-in about 1 car length past left curb end"},
       {"type": "apex", "text": "Apex at curb, not on it"}
     ],
     "T6": [
-      {"type": "line", "text": "Enter midtrack, drift to very late apex"},
-      {"type": "caution", "text": "Compression at apex, gentle throttle"},
+      {"type": "line", "text": "Enter midtrack, very late apex"},
       {"type": "throttle", "text": "Squeeze throttle after compression", "announce_m_before": 10}
     ],
     "T7": [
-      {"type": "line", "text": "Single apex line, aim for triangle"},
-      {"type": "line", "text": "Use left curb to straighten exit"}
+      {"type": "line", "text": "Single apex, aim for triangle"}
     ],
     "T7A": [
-      {"type": "setup", "text": "Access road on right is your reference"},
-      {"type": "caution", "text": "Don’t jump the curbs"}
+      {"type": "setup", "text": "Access road on right is your reference"}
     ],
     "T8": [
       {"type": "brake", "text": "Light brush, precise turn-in"},
-      {"type": "landmark", "text": "Flag station straight ahead at T8 entry"},
-      {"type": "line", "text": "Left tires pick up curb early, ride to end"}
+      {"type": "line", "text": "Left tires pick up curb early"}
     ],
     "T8A": [
       {"type": "apex", "text": "Pick up curb halfway, open wheel before end"},
-      {"type": "caution", "text": "If missed, don’t steer to curb"},
       {"type": "throttle", "text": "Full throttle once wheel is open", "announce_m_before": 10}
     ],
     "T9A": [
@@ -83,15 +70,11 @@
     ],
     "T10": [
       {"type": "brake", "text": "Brake straight, don’t swing left"},
-      {"type": "landmark", "text": "Flagger in wall; sign reference (Toyota A)"},
-      {"type": "apex", "text": "Use flat part of 2-step curb, track out full"}
+      {"type": "apex", "text": "Use flat part of 2-step curb"}
     ],
     "T11": [
       {"type": "brake", "text": "Brake at the dip, stay left"},
-      {"type": "landmark", "text": "Use the dip before braking"},
-      {"type": "apex", "text": "Very late apex, right tires on paint"},
-      {"type": "line", "text": "Track out to wall"},
-      {"type": "throttle", "text": "Early throttle if the exit is clear", "announce_m_before": 10}
+      {"type": "apex", "text": "Very late apex, right tires on paint"}
     ]
   }
 }
