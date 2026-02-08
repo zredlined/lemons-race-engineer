@@ -15,6 +15,7 @@ This repo helps you **record, understand, and replay track notes** while you tra
 Export an `.ibt` file from iRacing (any filename is fine).
 
 **Step 2 — Generate the track map + cues**
+> **Cues** = short coaching callouts tied to a specific point on track (usually a turn entry, apex, or exit).
 ```bash
 uv run --with pyirsdk --with matplotlib python3 tools/track_notes.py \
   --ibt "/path/to/file.ibt" \
