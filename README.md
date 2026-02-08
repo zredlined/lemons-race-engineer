@@ -30,6 +30,16 @@ uv run --with pyirsdk python3 tools/race_engineer.py \
 
 Open the UI at `http://localhost:5000`.
 
+**Helper Scripts**
+```bash
+./replay.sh sonoma_lemons
+./live.sh sonoma_lemons
+```
+If the scripts are not executable, run:
+```bash
+chmod +x replay.sh live.sh
+```
+
 **What Gets Generated**
 1. `outputs/<track_id>/turns.json`  
 Turn boundaries and apex points.
